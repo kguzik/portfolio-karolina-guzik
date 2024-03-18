@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply text-gray-700;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(14px + 1 * ((100vw - 320px) / 680));
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@layer base {
+    h1 {
+        @apply text-5xl font-medium;
+    }
+
+    h2 {
+        @apply text-4xl font-medium;
+    }
+
+    h3 {
+        @apply text-3xl font-medium;
+    }
+
+    h4 {
+        @apply text-2xl font-medium;
+    }
+
+    h5 {
+        @apply text-xl font-medium;
+    }
+
+    h6 {
+        @apply font-medium;
+    }
+}
+
+@layer utilities {
+    .section-spacing {
+        @apply my-[60px] lg:my-[100px];
+    }
+}
+
+.mask {
+    mask-image: url('../public/images/hero.svg');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: top;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #dc143c, #c874ae, #8a2be2);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: color 0.2s ease-in-out;
+    color: rgba(0, 0, 0, 0);
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}

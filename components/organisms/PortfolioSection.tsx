@@ -17,10 +17,6 @@ type PortfolioSectionProps = {
 };
 
 const PortfolioSection: FC<PortfolioSectionProps> = ({ data, title }) => {
-    if (!data?.length) {
-        return null;
-    }
-
     const swiperRef = useRef<SwiperType>();
     const [slidesPerView, setSlidesPerView] = useState(3);
     const { width } = useWindowSize();
@@ -32,6 +28,10 @@ const PortfolioSection: FC<PortfolioSectionProps> = ({ data, title }) => {
             setSlidesPerView(2);
         }
     }, [width]);
+
+    if (!data?.length) {
+        return null;
+    }
 
     return (
         <section className='section-spacing'>

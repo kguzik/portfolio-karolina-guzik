@@ -1,4 +1,4 @@
-This is a my personal portfolio create with Next.js, Typescript and Tailwind.
+This is my personal portfolio create with Next.js, Typescript and Tailwind.
 
 ## Live Version
 

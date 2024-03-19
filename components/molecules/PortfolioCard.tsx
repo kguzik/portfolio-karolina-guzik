@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { FC } from 'react';
-import Button from './Button';
+import Button from '../atoms/Button';
 import { PortfolioItem } from '@/types/types';
 
 type PortfolioCardProps = {

@@ -1,6 +1,6 @@
-import Hero from '@/components/organisms/Hero';
+import Hero from '@/components/blocks/Hero';
 import { Metadata } from 'next';
-import Timeline from '@/components/organisms/Timeline';
+import Timeline from '@/components/blocks/Timeline';
 import { timeline } from '@/constants';
 
 export const metadata: Metadata = {

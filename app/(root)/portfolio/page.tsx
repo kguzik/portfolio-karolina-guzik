@@ -1,4 +1,4 @@
-import PortfolioSection from '@/components/organisms/PortfolioSection';
+import PortfolioSection from '@/components/blocks/PortfolioSection';
 import { portfolios } from '@/constants';
 import { Metadata } from 'next';
 

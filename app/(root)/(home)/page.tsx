@@ -1,6 +1,6 @@
-import Hero from '@/components/organisms/Hero';
-import Skills from '@/components/organisms/Skills';
-import PortfolioHome from '@/components/organisms/PortfolioHome';
+import Hero from '@/components/blocks/Hero';
+import Skills from '@/components/blocks/Skills';
+import PortfolioHome from '@/components/blocks/PortfolioHome';
 import { portfolios, skills } from '@/constants';
 
 const page = () => {

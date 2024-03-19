@@ -1,6 +1,6 @@
 import Container from '../atoms/Container';
 import SectionHeading from '../atoms/SectionHeading';
-import PortfolioCard from '@/components/atoms/PortfolioCard';
+import PortfolioCard from '@/components/molecules/PortfolioCard';
 import Button from '@/components/atoms/Button';
 import { FC } from 'react';
 import { PortfolioItem } from '@/types/types';

@@ -1,7 +1,7 @@
 'use client';
 
 import { FC, useEffect, useRef, useState } from 'react';
-import PortfolioCard from '../atoms/PortfolioCard';
+import PortfolioCard from '../molecules/PortfolioCard';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Swiper as SwiperType } from 'swiper';

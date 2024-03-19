@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import { FC } from 'react';
 
 type ButtonProps = {
     text: string;
@@ -7,8 +8,7 @@ type ButtonProps = {
     target?: string;
 };
 
-const Button = (props: ButtonProps) => {
-    const { text, url, target = '_self' } = props;
+const Button: FC<ButtonProps> = ({ text, url, target = '_self' }) => {
     return (
         <Link href={url} className={styles.button} target={target}>
             {text} <ArrowRight size={18} className={styles.arrow} />

@@ -82,10 +82,10 @@ const MobileMenu = () => {
 
 const styles = {
     menuTop: 'border-b border-grey-200 w-full',
-    menuWrapper: 'flex items-center justify-between h-[80px]',
+    menuWrapper: 'flex items-center justify-between h-20',
     mobileButton: 'hover:text-violet transition-colors',
-    nav: 'flex flex-col items-center justify-center gap-[40px] flex-1',
-    navList: 'flex flex-col items-center gap-[20px]',
+    nav: 'flex flex-col items-center justify-center gap-10 flex-1',
+    navList: 'flex flex-col items-center gap-5',
 };
 
 export default MobileMenu;

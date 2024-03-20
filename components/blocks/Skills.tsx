@@ -37,8 +37,8 @@ const Skills: FC<SkillsProps> = ({ data }) => {
 };
 
 const styles = {
-    skills: 'flex justify-center items-align gap-[20px] flex-wrap lg:max-w-[85%] lg:mx-auto',
-    skill: 'px-[16px] py-[8px] bg-violet-light text-violet rounded',
+    skills: 'flex justify-center items-align gap-5 flex-wrap lg:max-w-[85%] lg:mx-auto',
+    skill: 'px-4 py-2 bg-violet-light text-violet rounded',
 };
 
 export default Skills;

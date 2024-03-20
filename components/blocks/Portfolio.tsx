@@ -35,8 +35,7 @@ const Portfolio: FC<PortfolioProps> = ({ data }) => {
 };
 
 const styles = {
-    portfolioWrapper:
-        'grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-[24px]',
+    portfolioWrapper: 'grid lg:grid-cols-[repeat(2,_1fr)] gap-6',
 };
 
 export default Portfolio;

@@ -41,10 +41,10 @@ const PortfolioCard: FC<PortfolioCardProps> = ({ portfolio, index }) => {
 };
 
 const styles = {
-    card: 'bg-white p-[24px] lg:p-[48px] rounded-lg',
+    card: 'bg-white p-6 lg:p-12 rounded-lg',
     imageWrapper:
-        'relative w-full h-[320px] rounded-lg overflow-hidden mb-[16px] lg:mb-[24px]',
-    buttonWrapper: 'flex flex-wrap gap-[16px]',
+        'relative w-full h-[320px] rounded-lg overflow-hidden mb-4 lg:mb-6',
+    buttonWrapper: 'flex flex-wrap gap-4',
 };
 
 export default PortfolioCard;

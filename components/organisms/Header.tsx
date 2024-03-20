@@ -31,9 +31,9 @@ const Header = () => {
 
 const styles = {
     header: 'border-b border-grey-200',
-    wrapper: 'flex items-center justify-between h-[80px]',
-    nav: 'flex gap-[48] max-md:hidden',
-    navList: 'flex items-center gap-[32px]',
+    wrapper: 'flex items-center justify-between h-20',
+    nav: 'flex max-md:hidden',
+    navList: 'flex items-center gap-8',
 };
 
 export default Header;

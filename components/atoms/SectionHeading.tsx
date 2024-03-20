@@ -25,8 +25,8 @@ const SectionHeading: FC<SectionHeadingProps> = ({ title, subtitle }) => {
 };
 
 const styles = {
-    wrapper: 'max-w-xl mx-auto mb-[44px] text-center lg:mb-[80px]',
-    subtitle: 'mt-[24px] text-grey-600',
+    wrapper: 'max-w-xl mx-auto mb-12 text-center lg:mb-20',
+    subtitle: 'mt-6 text-grey-600',
 };
 
 export default SectionHeading;

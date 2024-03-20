@@ -68,15 +68,15 @@ const Footer = () => {
 };
 
 const styles = {
-    footer: 'py-[40px] border-t border-grey-200',
+    footer: 'py-10 border-t border-grey-200',
     footerWrapper:
-        'flex items-center justify-between gap-[20px] flex-wrap max-md:flex-col',
-    socials: 'flex gap-[12px]',
-    social: 'w-[40px] h-[40px] bg-violet text-white flex items-center justify-center transition-colors rounded hover:bg-violet-dark',
-    navList: 'flex items-center gap-[32px]',
+        'flex items-center justify-between gap-5 flex-wrap max-md:flex-col',
+    socials: 'flex gap-3',
+    social: 'w-10 h-10 bg-violet text-white flex items-center justify-center transition-colors rounded hover:bg-violet-dark',
+    navList: 'flex items-center gap-8',
     contact:
-        'mt-[48px] mx-auto flex gap-[10px] flex-col md:flex-row md:mt-[32px] items-center text-grey-600 w-max',
-    copyright: 'mt-[32px] text-grey-600 text-center text-sm',
+        'mt-12 mx-auto flex gap-3 flex-col md:flex-row md:mt-8 items-center text-grey-600 w-max',
+    copyright: 'mt-8 text-grey-600 text-center text-sm',
 };
 
 export default Footer;

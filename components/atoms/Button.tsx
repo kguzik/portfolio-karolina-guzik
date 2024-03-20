@@ -17,7 +17,7 @@ const Button: FC<ButtonProps> = ({ text, url, target = '_self' }) => {
 };
 
 const styles = {
-    button: 'bg-violet inline-flex items-center justify-center gap-2 rounded-[26px] px-[24px] py-[12px] text-white transition-colors group hover:bg-violet-dark',
+    button: 'bg-violet inline-flex items-center justify-center gap-2 rounded-[26px] px-6 py-3 text-white transition-colors group hover:bg-violet-dark',
     arrow: 'transition-transform transform group-hover:translate-x-0.5',
 };
 export default Button;

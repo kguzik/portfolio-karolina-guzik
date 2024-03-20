@@ -29,7 +29,7 @@ const Hero: FC<HeroProps> = ({ imagePosition, preheading, title, content }) => {
         <section className='section-spacing'>
             <Container>
                 <div
-                    className={`grid lg:gap-x-[15%] gap-y-[30px] ${gridLayoutClass} items-center`}
+                    className={`grid lg:gap-x-[15%] gap-y-8 ${gridLayoutClass} items-center`}
                 >
                     <div className={`${styles.contentWrapper} ${contentClass}`}>
                         {preheading && (
@@ -79,7 +79,7 @@ const Hero: FC<HeroProps> = ({ imagePosition, preheading, title, content }) => {
                         </div>
                     </div>
                     <div
-                        className={`${imageClass} relative mx-auto w-[280px] max-w-[90%] lg:w-[400px] after:content-[''] after:absolute after:bg-hero after:bg-no-repeat after:bg-contain after:max-w-[100%] after:w-[400px] after:h-[400px] after:top-[10px] after:left-[50%] after:z-[-1] lg:after:left-[40px] lg:after:transform-none after:-translate-x-1/2`}
+                        className={`${imageClass} relative mx-auto w-[280px] max-w-[90%] lg:w-[400px] after:content-[''] after:absolute after:bg-hero after:bg-no-repeat after:bg-contain after:max-w-[100%] after:w-[400px] after:h-[400px] after:top-3 after:left-[50%] after:z-[-1] lg:after:left-10 lg:after:transform-none after:-translate-x-1/2`}
                     >
                         <Image
                             src={'/images/karolinaguzik.jpg'}
@@ -96,17 +96,16 @@ const Hero: FC<HeroProps> = ({ imagePosition, preheading, title, content }) => {
 };
 
 const styles = {
-    wrapper: 'grid gap-[50px] lg:grid-cols-[1fr_420px] items-center',
-    container: 'container mx-auto px-[24px]',
+    wrapper: 'grid gap-13 lg:grid-cols-[1fr_420px] items-center',
+    container: 'container mx-auto px-6',
     contentWrapper: 'text-center max-sm:overflow-hidden',
-    textBox:
-        'py-[16px] px-[28px] rounded-lg bg-white inline-flex flex-col gap-[8px]',
+    textBox: 'py-4 px-7 rounded-lg bg-white inline-flex flex-col gap-2',
     textBoxCharacter: 'text-violet',
     preheading:
-        'mb-[20px] px-[16px] py-[8px] bg-violet-light inline-block text-violet rounded',
-    title: 'mb-[24px]',
-    content: 'mb-[32px]',
-    buttonWrapper: 'mb-[32px]',
+        'mb-5 px-4 py-2 bg-violet-light inline-block text-violet rounded',
+    title: 'mb-6',
+    content: 'mb-8',
+    buttonWrapper: 'mb-8',
     image: 'mask object-top object-cover h-auto max-w-full w-[260px] h-[260px] lg:w-[400px] lg:h-[400px] max-lg:max-h-[280px] relative z-1',
 };
 

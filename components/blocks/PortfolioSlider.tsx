@@ -58,7 +58,7 @@ const PortfolioSlider: FC<PortfolioSliderProps> = ({ data, title }) => {
                         </button>
                     </div>
                 </div>
-                <div className='pt-[32px]'>
+                <div className={styles.sliderWrapper}>
                     <Swiper
                         spaceBetween={20}
                         slidesPerView={slidesPerView}
@@ -75,10 +75,7 @@ const PortfolioSlider: FC<PortfolioSliderProps> = ({ data, title }) => {
                         ))}
                     </Swiper>
                 </div>
-                <div
-                    className='flex justify-center mt-[60px] lg:mt-[80px]'
-                    data-aos='fade-up'
-                >
+                <div className={styles.buttonWrapper} data-aos='fade-up'>
                     <Button text={'View all projects'} url={'/portfolio'} />
                 </div>
             </Container>
@@ -87,11 +84,13 @@ const PortfolioSlider: FC<PortfolioSliderProps> = ({ data, title }) => {
 };
 
 const styles = {
-    above: 'pb-[12px] border-b border-grey-200 flex justify-between items-center',
+    above: 'pb-3 border-b border-grey-200 flex justify-between items-center',
     aboveText: 'text-grey-600 text-sm font-medium',
-    sliderButtonsWrapper: 'flex gap-[8px]',
+    sliderWrapper: 'pt-8',
+    sliderButtonsWrapper: 'flex gap-2',
     sliderButton:
-        'bg-violet-dark border border-violet-dark p-[4px] rounded-[10px] text-white hover:bg-violet transition-colors',
+        'bg-violet-dark border border-violet-dark p-1 rounded-[10px] text-white hover:bg-violet transition-colors',
+    buttonWrapper: 'flex justify-center mt-10 lg:mt-20',
 };
 
 export default PortfolioSlider;

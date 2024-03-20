@@ -53,7 +53,23 @@ const Footer = () => {
                                     size={20}
                                     className='text-violet'
                                 />
-                                <p>{detail.text}</p>
+                                {detail.type === 'phone' ? (
+                                    <a
+                                        href={`tel:${detail.text}`}
+                                        className={styles.detailLink}
+                                    >
+                                        {detail.text}
+                                    </a>
+                                ) : detail.type === 'email' ? (
+                                    <a
+                                        href={`mailto:${detail.text}`}
+                                        className={styles.detailLink}
+                                    >
+                                        {detail.text}
+                                    </a>
+                                ) : (
+                                    <p>{detail.text}</p>
+                                )}
                             </div>
                         ))}
                     </div>
@@ -77,6 +93,7 @@ const styles = {
     contact:
         'mt-12 mx-auto flex gap-3 flex-col md:flex-row md:mt-8 items-center text-grey-600 w-max',
     copyright: 'mt-8 text-grey-600 text-center text-sm',
+    detailLink: 'hover:text-violet transition-colors',
 };
 
 export default Footer;

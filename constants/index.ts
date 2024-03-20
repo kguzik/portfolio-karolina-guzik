@@ -136,11 +136,13 @@ export const contactDetails = [
         id: 1,
         icon: Phone,
         text: '+48 513 140 855',
+        type: 'phone',
     },
     {
         id: 2,
         icon: Mail,
         text: 'kontakt.ikagi@gmail.com',
+        type: 'email',
     },
     {
         id: 3,

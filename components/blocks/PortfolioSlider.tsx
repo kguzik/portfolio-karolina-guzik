@@ -10,13 +10,14 @@ import { useWindowSize } from '@/hooks/useWindowSize';
 import SectionHeading from '../atoms/SectionHeading';
 import Container from '../atoms/Container';
 import { PortfolioItem } from '@/types/types';
+import Button from '../atoms/Button';
 
-type PortfolioSectionProps = {
+type PortfolioSliderProps = {
     data: PortfolioItem[];
     title?: string;
 };
 
-const PortfolioSection: FC<PortfolioSectionProps> = ({ data, title }) => {
+const PortfolioSlider: FC<PortfolioSliderProps> = ({ data, title }) => {
     const swiperRef = useRef<SwiperType>();
     const [slidesPerView, setSlidesPerView] = useState(3);
     const { width } = useWindowSize();
@@ -37,8 +38,8 @@ const PortfolioSection: FC<PortfolioSectionProps> = ({ data, title }) => {
         <section className='section-spacing'>
             <Container>
                 <SectionHeading
-                    title='Portfolio'
-                    subtitle='Check out some of my projects!'
+                    title='My Works'
+                    subtitle="Here's what some of my recent development projects look like."
                 />
                 <div className={styles.above} data-aos='fade-down'>
                     <p className={styles.aboveText}>{title}</p>
@@ -57,7 +58,6 @@ const PortfolioSection: FC<PortfolioSectionProps> = ({ data, title }) => {
                         </button>
                     </div>
                 </div>
-
                 <div className='pt-[32px]'>
                     <Swiper
                         spaceBetween={20}
@@ -65,7 +65,7 @@ const PortfolioSection: FC<PortfolioSectionProps> = ({ data, title }) => {
                         loop={true}
                         onSwiper={(swiper) => (swiperRef.current = swiper)}
                     >
-                        {data.map((portfolio, index) => (
+                        {data.slice(0, 4).map((portfolio, index) => (
                             <SwiperSlide key={index}>
                                 <PortfolioCard
                                     portfolio={portfolio}
@@ -74,6 +74,12 @@ const PortfolioSection: FC<PortfolioSectionProps> = ({ data, title }) => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
+                </div>
+                <div
+                    className='flex justify-center mt-[60px] lg:mt-[80px]'
+                    data-aos='fade-up'
+                >
+                    <Button text={'View all projects'} url={'/portfolio'} />
                 </div>
             </Container>
         </section>
@@ -88,4 +94,4 @@ const styles = {
         'bg-violet-dark border border-violet-dark p-[4px] rounded-[10px] text-white hover:bg-violet transition-colors',
 };
 
-export default PortfolioSection;
+export default PortfolioSlider;

@@ -1,4 +1,4 @@
-import PortfolioSection from '@/components/blocks/PortfolioSection';
+import Portfolio from '@/components/blocks/Portfolio';
 import { portfolios } from '@/constants';
 import { Metadata } from 'next';
 
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
-    return <PortfolioSection data={portfolios} title={'Projetcs'} />;
+    return <Portfolio data={portfolios} />;
 };
 
 export default page;

@@ -1,7 +1,7 @@
 import Hero from '@/components/blocks/Hero';
 import Skills from '@/components/blocks/Skills';
-import PortfolioHome from '@/components/blocks/PortfolioHome';
 import { portfolios, skills } from '@/constants';
+import PortfolioSlider from '@/components/blocks/PortfolioSlider';
 
 const page = () => {
     return (
@@ -15,7 +15,7 @@ const page = () => {
                 }
             />
             <Skills data={skills} />
-            <PortfolioHome data={portfolios} />
+            <PortfolioSlider data={portfolios} title={'Projects'} />
         </>
     );
 };

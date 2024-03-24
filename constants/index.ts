@@ -22,6 +22,7 @@ export const skills = [
     'React.js',
     'Next.js',
     'TypeScript',
+    'OpenAI API',
     'CSS',
     'SCSS',
     'Tailwind',

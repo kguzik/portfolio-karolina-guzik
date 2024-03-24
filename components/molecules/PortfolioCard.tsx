@@ -18,6 +18,9 @@ const PortfolioCard: FC<PortfolioCardProps> = ({ portfolio, index }) => {
             data-aos-delay={index * 100}
         >
             <h4 className='mb-5'>{portfolio.title}</h4>
+            {portfolio.description && (
+                <p className={styles.description}>{portfolio.description}</p>
+            )}
             <div className={styles.imageWrapper}>
                 <Image
                     src={portfolio.image}
@@ -42,6 +45,7 @@ const PortfolioCard: FC<PortfolioCardProps> = ({ portfolio, index }) => {
 
 const styles = {
     card: 'bg-white p-6 lg:p-12 rounded-lg',
+    description: 'mb-6',
     imageWrapper:
         'relative w-full h-[320px] rounded-lg overflow-hidden mb-4 lg:mb-6',
     buttonWrapper: 'flex flex-wrap gap-4',

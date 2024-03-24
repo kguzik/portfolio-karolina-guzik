@@ -1,6 +1,7 @@
 export type PortfolioItem = {
     id: number;
     title: string;
+    description: string;
     link: string;
     githubLink?: string;
     image: string;

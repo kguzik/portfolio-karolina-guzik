@@ -78,3 +78,8 @@ html {
         background-position: left;
     }
 }
+
+.swiper .swiper-slide {
+    align-self: stretch;
+    height: auto;
+}

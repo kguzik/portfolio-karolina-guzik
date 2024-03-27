@@ -72,13 +72,21 @@ export const portfolios = [
     },
     {
         id: 5,
+        title: 'SSC Website',
+        description:
+            'As a contractor for <a href="https://thedaylightstudio.com/" target="_blank">Daylight Studio</a>  I built this website using WordPress and PHP',
+        link: 'https://ssc-inc.com/',
+        image: '/images/ssc-mockups.png',
+    },
+    {
+        id: 6,
         title: 'Machtfit Website',
         description: 'WordPress, PHP, SCSS',
         link: 'https://www.machtfit.de/',
         image: '/images/machtfit-mockups.png',
     },
     {
-        id: 6,
+        id: 7,
         title: 'Klarquist Website',
         description:
             'As a contractor for <a href="https://thedaylightstudio.com/" target="_blank">The Daylight Studio</a> I build this website with WordPress & PHP',
@@ -86,14 +94,14 @@ export const portfolios = [
         image: '/images/klarquist-mockups.png',
     },
     {
-        id: 7,
+        id: 8,
         title: 'Travel Blog',
         description: 'WordPress, PHP, SCSS',
         link: 'https://turystyczny.com.pl/',
         image: '/images/turystyczny-mockups.png',
     },
     {
-        id: 8,
+        id: 9,
         title: 'Movie Quotes Quiz Game',
         description: 'React.js, SCSS, Firebase',
         link: 'https://kguzik.github.io/movie-quotes-quiz/',
@@ -101,14 +109,14 @@ export const portfolios = [
         image: '/images/movie-quotes-quiz-mockups.png',
     },
     {
-        id: 9,
+        id: 10,
         title: 'Corpussanum Website',
         description: 'WordPress, PHP, SCSS',
         link: 'https://corpussanum.pl/',
         image: '/images/corpussanum-mockups.png',
     },
     {
-        id: 10,
+        id: 11,
         title: 'Reveil Website',
         description: 'HTML, CSS, JavaScript',
         link: 'http://reveil.com.pl/',
@@ -116,21 +124,21 @@ export const portfolios = [
         image: '/images/reveil-mockups.png',
     },
     {
-        id: 11,
+        id: 12,
         title: 'AP Diet Website + Shop',
         description: 'WordPress, PHP, SCSS, WooCommerce',
         link: 'https://apdiet.pl/',
         image: '/images/apdiet-mockups.png',
     },
     {
-        id: 12,
+        id: 13,
         title: 'Pozytywnie o jedzeniu Website + Shop',
         description: 'WordPress, PHP, SCSS, WooCommerce',
         link: 'https://pozytywnieojedzeniu.pl/',
         image: '/images/pozytywnie-mockups.png',
     },
     {
-        id: 13,
+        id: 14,
         title: 'Który Kosz App',
         description: 'React.js, CSS',
         link: 'https://kguzik.github.io/ktory-kosz/',
@@ -138,7 +146,7 @@ export const portfolios = [
         image: '/images/ktorykosz-mockups.png',
     },
     {
-        id: 14,
+        id: 15,
         title: 'Biznestoq Blog',
         description: 'WordPress, PHP, SCSS',
         link: 'https://biznestoq.pl/',

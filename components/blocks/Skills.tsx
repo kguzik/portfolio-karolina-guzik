@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import Container from '../atoms/Container';
 import SectionHeading from '../atoms/SectionHeading';
+import Button from '../atoms/Button';
 
 type SkillsProps = {
     data: string[];
@@ -31,6 +32,9 @@ const Skills: FC<SkillsProps> = ({ data }) => {
                         </p>
                     ))}
                 </div>
+                <div className={styles.buttonWrapper} data-aos='fade-up'>
+                    <Button text={'About me'} url={'/about'} />
+                </div>
             </Container>
         </section>
     );
@@ -39,6 +43,7 @@ const Skills: FC<SkillsProps> = ({ data }) => {
 const styles = {
     skills: 'flex justify-center items-align gap-5 flex-wrap lg:max-w-[85%] lg:mx-auto',
     skill: 'px-4 py-2 bg-violet-light text-violet rounded',
+    buttonWrapper: 'flex justify-center mt-10 lg:mt-20',
 };
 
 export default Skills;

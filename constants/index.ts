@@ -37,6 +37,7 @@ export const skills = [
     'UX Basics',
     'Figma Basics',
     'Adobe Photoshop Basics',
+    'English B2/C1',
 ];
 
 export const portfolios = [

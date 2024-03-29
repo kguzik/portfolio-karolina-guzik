@@ -31,6 +31,7 @@ const Footer = () => {
                                     href={link.url}
                                     target='_blank'
                                     rel='nofollow'
+                                    aria-label={`${link.label} link`}
                                     className={styles.social}
                                 >
                                     <link.icon

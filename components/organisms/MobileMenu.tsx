@@ -29,7 +29,11 @@ const MobileMenu = () => {
 
     return (
         <div className='md:hidden'>
-            <button className={styles.mobileButton} onClick={toggleMenu}>
+            <button
+                className={styles.mobileButton}
+                onClick={toggleMenu}
+                aria-label='toggle mobile'
+            >
                 <Image
                     src={'/icons/hamburger.svg'}
                     alt={'icon'}
@@ -49,6 +53,7 @@ const MobileMenu = () => {
                             <GradientLink text={'Karolina Guzik'} link={'/'} />
                             <button
                                 className={styles.mobileButton}
+                                aria-label='toggle mobile'
                                 onClick={toggleMenu}
                             >
                                 <X size={25} />

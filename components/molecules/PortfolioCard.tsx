@@ -17,7 +17,7 @@ const PortfolioCard: FC<PortfolioCardProps> = ({ portfolio, index }) => {
             data-aos='fade-up'
             data-aos-delay={index * 100}
         >
-            <h4 className='mb-5'>{portfolio.title}</h4>
+            <h3 className={styles.cardTitle}>{portfolio.title}</h3>
             {portfolio.description && (
                 <p
                     className={styles.description}
@@ -54,6 +54,7 @@ const PortfolioCard: FC<PortfolioCardProps> = ({ portfolio, index }) => {
 
 const styles = {
     card: 'bg-white p-6 lg:p-12 rounded-lg flex flex-col h-full',
+    cardTitle: 'mb-5 text-2xl font-medium',
     description:
         'mb-6 [&>a]:text-violet [&>a]:transition-opacity hover:[&>a]:opacity-80',
     wrapper: 'mt-auto',

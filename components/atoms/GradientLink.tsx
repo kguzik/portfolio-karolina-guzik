@@ -9,7 +9,7 @@ type GradientLinkProps = {
 const GradientLink: FC<GradientLinkProps> = ({ link, text }) => {
     return (
         <Link href={link}>
-            <h5 className='gradient-text'>{text}</h5>
+            <p className='gradient-text text-xl font-medium'>{text}</p>
         </Link>
     );
 };

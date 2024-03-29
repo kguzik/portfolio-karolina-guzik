@@ -69,12 +69,12 @@ const Hero: FC<HeroProps> = ({ imagePosition, preheading, title, content }) => {
                             />
                         </div>
                         <div className={styles.textBox} data-aos='fade-up'>
-                            <h3>
+                            <p className='text-3xl font-medium'>
                                 5
                                 <span className={styles.textBoxCharacter}>
                                     +
                                 </span>
-                            </h3>
+                            </p>
                             <p>Years of Experience</p>
                         </div>
                     </div>

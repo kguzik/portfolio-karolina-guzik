@@ -46,12 +46,14 @@ const PortfolioSlider: FC<PortfolioSliderProps> = ({ data, title }) => {
                     <div className={styles.sliderButtonsWrapper}>
                         <button
                             className={styles.sliderButton}
+                            aria-label='slider button prev'
                             onClick={() => swiperRef.current?.slidePrev()}
                         >
                             <ChevronLeft />
                         </button>
                         <button
                             className={styles.sliderButton}
+                            aria-label='slider button next'
                             onClick={() => swiperRef.current?.slideNext()}
                         >
                             <ChevronRight />

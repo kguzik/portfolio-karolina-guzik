@@ -31,9 +31,9 @@ const Timeline: FC<TimelineProps> = ({ data }) => {
                             </div>
                             <div className={styles.info}>
                                 <div className={styles.infoWrapper}>
-                                    <h6 className={styles.title}>
+                                    <h3 className={styles.title}>
                                         {item.title}
-                                    </h6>
+                                    </h3>
                                     <p className={styles.duration}>
                                         {item.duration}
                                     </p>
@@ -75,7 +75,7 @@ const styles = {
     info: 'w-[calc(100%-56px)] sm:w-[calc(100%-72px)] lg:w-[calc(50%-64px)]',
     infoWrapper:
         'flex items-center justify-between gap-2 max-sm:flex-wrap max-sm:flex-col max-sm:items-start',
-    title: 'font-semibold',
+    title: 'font-medium text-lg',
     duration: 'font-medium text-violet',
     company:
         'mt-2 mb-4 lg:mt-3 px-4 py-2 bg-violet-light inline-block text-violet rounded',

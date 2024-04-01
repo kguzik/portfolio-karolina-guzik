@@ -13,8 +13,8 @@ const config: Config = {
                 black: '#000000',
                 green: '#5EDC11',
                 violet: {
-                    DEFAULT: '#7c55e4',
-                    light: '#ded4f8',
+                    DEFAULT: '#7147e1',
+                    light: '#efeafe',
                     dark: '#704bd2',
                 },
                 grey: {

@@ -195,7 +195,7 @@ export const timeline = [
         id: 1,
         title: 'Mid Frontend Developer',
         company: 'Chop-Chop.org',
-        duration: '2022 - Present',
+        duration: '2022 - 2024',
         description: [
             'Working with WordPress, PHP, React.js, Next.js, TypeScript, Tailwind, Styled Components, CSS, SCSS, BEM, HTML, JavaScript, Nunjucks and Git',
             'Leading projects with teams of 2-3 developers, mentoring a frontend intern, communications with clients ',

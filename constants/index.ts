@@ -30,14 +30,20 @@ export const skills = [
     'HTML',
     'Nunjucks',
     'Git',
+    'CI/CD Basics',
+    'Webpack',
     'Bootstrap',
     'jQuery',
     'Firebase Basics',
-    'SEO Basics',
+    'SQL Basics',
+    'SEO',
     'UX Basics',
     'Figma Basics',
     'Adobe Photoshop Basics',
-    'English B2/C1',
+    'Adobe XD Basics',
+    'WCAG',
+    'English C1',
+    'Pixel Perfect',
 ];
 
 export const portfolios = [
@@ -193,17 +199,28 @@ export const contactDetails = [
 export const timeline = [
     {
         id: 1,
+        title: 'Senior Web Developer',
+        company: 'plantecs GmbH',
+        duration: '2024 - present',
+        description: [
+            'Working as a contractor for die medienplaner GmbH',
+            'Developing and maintaining websites built with WordPress, PHP, CSS, SCSS, HTML and JavaScript',
+            'Managing the complete development lifecycle, from planning to implementation and deployment',
+        ],
+    },
+    {
+        id: 2,
         title: 'Mid Frontend Developer',
         company: 'Chop-Chop.org',
         duration: '2022 - 2024',
         description: [
             'Working with WordPress, PHP, React.js, Next.js, TypeScript, Tailwind, Styled Components, CSS, SCSS, BEM, HTML, JavaScript, Nunjucks and Git',
-            'Leading projects with teams of 2-3 developers, mentoring a frontend intern, communications with clients ',
+            'Leading projects with teams of 2-3 developers, mentoring a frontend intern, communications with clients',
             'Creating and optimizing development environments',
         ],
     },
     {
-        id: 2,
+        id: 3,
         title: 'Freelance Web Developer',
         company: 'Ikagi Karolina Guzik',
         duration: '2020 - 2021',
@@ -213,7 +230,7 @@ export const timeline = [
         ],
     },
     {
-        id: 3,
+        id: 4,
         title: 'Web Developer',
         company: 'ASCO Systemy Informatyczne Sp. z o.o. Sp. k.',
         duration: '2019 - 2020',
@@ -223,7 +240,7 @@ export const timeline = [
         ],
     },
     {
-        id: 4,
+        id: 5,
         title: 'Junior Front-End Developer',
         company: 'Pomeranian Development Studio',
         duration: '2018 - 2019',
@@ -232,7 +249,7 @@ export const timeline = [
         ],
     },
     {
-        id: 5,
+        id: 6,
         title: 'Massage Therapist / Receptionist',
         company: 'Kosmetyczny Instytut Dr Irena Eris',
         duration: '2016 - 2018',

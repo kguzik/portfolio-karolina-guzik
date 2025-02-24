@@ -4,6 +4,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: 'Karolina Guzik - My Portfolio',
+    description:
+        'Explore my portfolio of projects, showcasing my skills and expertise in frontend development.',
 };
 
 const page = () => {

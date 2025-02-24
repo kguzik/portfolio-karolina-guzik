@@ -2,6 +2,13 @@ import Hero from '@/components/blocks/Hero';
 import Skills from '@/components/blocks/Skills';
 import { portfolios, skills } from '@/constants';
 import PortfolioSlider from '@/components/blocks/PortfolioSlider';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Karolina Guzik - Frontend Developer',
+    description:
+        "I'm a detail-oriented Frontend Developer, experienced with various technologies including WordPress, PHP, JavaScript, React.js, and Next.js, focusing on creating responsive, high performance websites.",
+};
 
 const page = () => {
     return (

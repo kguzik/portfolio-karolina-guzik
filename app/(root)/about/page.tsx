@@ -5,6 +5,8 @@ import { timeline } from '@/constants';
 
 export const metadata: Metadata = {
     title: 'Karolina Guzik - About Me',
+    description:
+        'Learn more about my journey as a frontend developer, my skills, and my experiences.',
 };
 
 const page = () => {

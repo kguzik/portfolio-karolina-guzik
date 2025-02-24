@@ -13,6 +13,21 @@ export const metadata: Metadata = {
     title: 'Karolina Guzik - Frontend Developer',
     description:
         "I'm a detail-oriented Frontend Developer, experienced with various technologies including WordPress, PHP, JavaScript, React.js, and Next.js, focusing on creating responsive, high performance websites.",
+    openGraph: {
+        title: 'Karolina Guzik',
+        description: "Frontend Developer",
+        type: 'website',
+        siteName: 'Karolina Guzik Portfolio',
+        locale: 'en_US',
+        images: [
+            {
+                url: '/icons/icon.png',
+                width: 512,
+                height: 512,
+                alt: 'Karolina Guzik - Frontend Developer',
+            },
+        ],
+    },
 };
 
 export default function RootLayout({

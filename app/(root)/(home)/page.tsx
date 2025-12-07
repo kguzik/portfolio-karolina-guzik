@@ -5,26 +5,26 @@ import PortfolioSlider from '@/components/blocks/PortfolioSlider';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Karolina Guzik - Frontend Developer',
-    description:
-        "I'm a detail-oriented Frontend Developer, experienced with various technologies including WordPress, PHP, JavaScript, React.js, and Next.js, focusing on creating responsive, high performance websites.",
+  title: 'Karolina Guzik - Frontend Developer',
+  description:
+    "I'm a detail-oriented Frontend Developer, experienced with various technologies including React.js, Next.js, Svelte, JavaScript, TypeScript and PHP, focusing on creating responsive, high performance websites.",
 };
 
 const page = () => {
-    return (
-        <>
-            <Hero
-                title={"I'm Karolina Guzik"}
-                preheading={'Hello there'}
-                imagePosition={'right'}
-                content={
-                    "I'm a detail-oriented Frontend Developer, experienced with various technologies including WordPress, PHP, JavaScript, React.js, and Next.js, focusing on creating responsive, high performance websites."
-                }
-            />
-            <Skills data={skills} />
-            <PortfolioSlider data={portfolios} title={'Projects'} />
-        </>
-    );
+  return (
+    <>
+      <Hero
+        title={"I'm Karolina Guzik"}
+        preheading={'Hello there'}
+        imagePosition={'right'}
+        content={
+          "I'm a detail-oriented Frontend Developer, experienced with various technologies including React.js, Next.js, Svelte, JavaScript, TypeScript and PHP, focusing on creating responsive, high performance websites."
+        }
+      />
+      <Skills data={skills} />
+      <PortfolioSlider data={portfolios} title={'Projects'} />
+    </>
+  );
 };
 
 export default page;

@@ -23,8 +23,11 @@ const MobileMenu = () => {
     };
 
     useEffect(() => {
-        setIsOpen(false);
         document.body.style.overflow = 'auto';
+        const closeTimeoutId = window.setTimeout(() => {
+            setIsOpen(false);
+        }, 0);
+        return () => window.clearTimeout(closeTimeoutId);
     }, [pathname]);
 
     return (

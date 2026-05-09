@@ -70,7 +70,7 @@ const Hero: FC<HeroProps> = ({ imagePosition, preheading, title, content }) => {
             </div>
           </div>
           <div
-            className={`${imageClass} relative mx-auto w-[280px] max-w-[90%] lg:w-[400px] after:content-[''] after:absolute after:bg-hero after:bg-no-repeat after:bg-contain after:max-w-[100%] after:w-[400px] after:h-[400px] after:top-3 after:left-[50%] after:z-[-1] lg:after:left-10 lg:after:transform-none after:-translate-x-1/2`}
+            className={`${imageClass} isolate relative mx-auto w-[280px] max-w-[90%] lg:w-[400px] after:block after:content-[''] after:absolute after:bg-hero after:bg-no-repeat after:bg-contain after:size-[400px] after:max-w-[100%] after:top-3 after:left-1/2 after:z-[-1] after:-translate-x-1/2 lg:after:left-10 lg:after:translate-x-0`}
           >
             <Image
               src={'/images/karolinaguzik.jpg'}
@@ -97,7 +97,7 @@ const styles = {
   content: 'mb-8',
   buttonWrapper: 'mb-8',
   image:
-    'mask object-top object-cover h-auto max-w-full w-[260px] h-[260px] lg:w-[400px] lg:h-[400px] max-lg:max-h-[280px] relative z-1',
+    'mask object-top object-cover h-auto max-w-full w-[260px] h-[260px] lg:w-[400px] lg:h-[400px] max-lg:max-h-[280px] relative z-[1]',
 };
 
 export default Hero;

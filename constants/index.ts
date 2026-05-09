@@ -1,4 +1,5 @@
-import { Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
+import { FaGithub as Github, FaLinkedin as Linkedin } from 'react-icons/fa6';
 
 export const navLinks = [
   {

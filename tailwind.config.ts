@@ -29,7 +29,7 @@ const config: Config = {
                 },
             },
             backgroundImage: {
-                hero: "url('../public/images/hero-light-purple.svg')",
+                hero: "url('/images/hero-light-purple.svg')",
             },
         },
     },

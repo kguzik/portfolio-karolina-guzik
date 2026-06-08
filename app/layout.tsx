@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google';
 import './globals.css';
 import NextTopLoader from 'nextjs-toploader';
 import { AOSInit } from '@/components/Aos';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -37,6 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      <GoogleAnalytics gaId='G-JW8VS7066N' />
       <body className={`bg-grey-100 ${poppins.className}`}>
         <AOSInit />
         <NextTopLoader color='#5700FF' showSpinner={false} />

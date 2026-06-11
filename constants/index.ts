@@ -63,10 +63,11 @@ export const portfolios = [
   },
   {
     id: 2,
-    title: 'Savor Saver - AI Recipe Generator',
-    description: 'React.js, OpenAI API, Firebase',
-    link: 'https://savorsaver.com/',
-    image: '/images/savor-saver-mockups.png',
+    title: 'Book Taste Profile - AI Reading Taste App',
+    description: 'Next.js, TypeScript, Tailwind CSS, Supabase, OpenAI API',
+    link: 'https://book-taste-profiler.vercel.app/',
+    githubLink: 'https://github.com/kguzik/book-taste-profiler',
+    image: '/images/book-taste-profile-mockups.png',
   },
   {
     id: 3,
@@ -130,6 +131,13 @@ export const portfolios = [
   },
   {
     id: 11,
+    title: 'Savor Saver - AI Recipe Generator',
+    description: 'React.js, OpenAI API, Firebase',
+    link: 'https://savorsaver.com/',
+    image: '/images/savor-saver-mockups.png',
+  },
+  {
+    id: 12,
     title: 'Biznestoq Blog',
     description: 'WordPress, PHP, SCSS',
     link: 'https://biznestoq.pl/',

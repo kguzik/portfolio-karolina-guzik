@@ -1,6 +1,9 @@
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { FaGithub as Github, FaLinkedin as Linkedin } from 'react-icons/fa6';
 
+export const description =
+  "I'm a Frontend Developer currently focused on React, TypeScript and Next.js. I've worked on complex web applications, headless e-commerce storefronts, and a large-scale migration project.";
+
 export const navLinks = [
   {
     label: 'Home',
@@ -200,8 +203,11 @@ export const timeline = [
     company: 'Monogo',
     duration: '2025 - present',
     description: [
-      'Maintaining multiple headless e-commerce storefronts built with Next.js, React, TypeScript and Magento, focusing on bug fixes, frontend improvements and selected new features.',
-      'Working on a large-scale enterprise website migration project covering tens of thousands of pages, with frontend development in Svelte and Builder.io, including bug fixing, new component development and resolving security audit findings.',
+      'Maintained headless e-commerce storefronts (Next.js, React, TypeScript, GraphQL) - features and bug fixes.',
+      'Contributed to a large-scale migration for Schneider Electric (se.com): ~80,000 pages across 40 languages, 150+ custom Svelte components built in a Svelte, TypeScript, and Tailwind monorepo.',
+      'Built a CMS-configurable contact form for Schneider Electric with dual backend integration: SFMC and OneTrust, with AWS Lambda email delivery.',
+      'Resolved security audit findings across the monorepo.',
+      'Wrote unit tests for Svelte components using Vitest and Testing Library.',
     ],
   },
   {

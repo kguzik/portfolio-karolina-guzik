@@ -4,6 +4,7 @@ import './globals.css';
 import NextTopLoader from 'nextjs-toploader';
 import { AOSInit } from '@/components/Aos';
 import { GoogleAnalytics } from '@next/third-parties/google';
+import { description } from '@/constants';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -12,8 +13,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'Karolina Guzik - Frontend Developer',
-  description:
-    "I'm a detail-oriented Frontend Developer, experienced with various technologies including React.js, Next.js, Svelte, JavaScript, TypeScript and PHP, focusing on creating responsive, high performance websites.",
+  description: description,
   openGraph: {
     title: 'Karolina Guzik',
     description: 'Frontend Developer',

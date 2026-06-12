@@ -17,7 +17,7 @@ const page = () => {
         preheading={'Frontend Developer'}
         imagePosition={'left'}
         content={
-          'I have around 6 years of experience in IT and have participated in the creation of dozens of websites. Check out my work experience below!'
+          "I'm an experienced Frontend Developer - from WordPress and PHP-based sites to modern React and TypeScript applications. I've worked on complex web applications, headless e-commerce storefronts, and a large-scale migration project. Check out my work experience below!"
         }
       />
       <Timeline data={timeline} />

@@ -14,3 +14,11 @@ export type TimelineItem = {
     duration: string;
     description?: string[];
 };
+
+export type Certificate = {
+    id: number;
+    title: string;
+    issuer: string;
+    pdf: string;
+    thumbnail: string;
+};

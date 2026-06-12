@@ -97,7 +97,7 @@ const styles = {
   content: 'mb-8',
   buttonWrapper: 'mb-8',
   image:
-    'mask object-top object-cover h-auto max-w-full w-[260px] h-[260px] lg:w-[400px] lg:h-[400px] max-lg:max-h-[280px] relative z-[1]',
+    'mask object-top object-cover w-[260px] h-[260px] lg:w-[400px] lg:h-[400px] max-lg:max-h-[280px] relative z-[1]',
 };
 
 export default Hero;

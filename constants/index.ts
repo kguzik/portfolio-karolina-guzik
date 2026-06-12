@@ -196,6 +196,37 @@ export const contactDetails = [
   },
 ];
 
+export const certificates = [
+  {
+    id: 1,
+    title: 'CMS Migration Project',
+    issuer: 'Schneider Electric',
+    pdf: '/certificates/Schneider.pdf',
+    thumbnail: '/certificates/Schneider.png',
+  },
+  {
+    id: 2,
+    title: 'AI Devs 3',
+    issuer: 'Brave Courses',
+    pdf: '/certificates/aidevs.pdf',
+    thumbnail: '/certificates/aidevs.png',
+  },
+  {
+    id: 3,
+    title: 'Front End Developer',
+    issuer: 'Akademia 108',
+    pdf: '/certificates/akademia108.pdf',
+    thumbnail: '/certificates/akademia108.png',
+  },
+  {
+    id: 4,
+    title: 'Partner Developer',
+    issuer: 'Builder.io',
+    pdf: '/certificates/builder.pdf',
+    thumbnail: '/certificates/builder.png',
+  },
+];
+
 export const timeline = [
   {
     id: 1,

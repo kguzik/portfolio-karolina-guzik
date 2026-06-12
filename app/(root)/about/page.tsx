@@ -1,7 +1,8 @@
 import Hero from '@/components/blocks/Hero';
 import { Metadata } from 'next';
 import Timeline from '@/components/blocks/Timeline';
-import { timeline } from '@/constants';
+import Certificates from '@/components/blocks/Certificates';
+import { timeline, certificates } from '@/constants';
 
 export const metadata: Metadata = {
   title: 'Karolina Guzik - About Me',
@@ -21,6 +22,7 @@ const page = () => {
         }
       />
       <Timeline data={timeline} />
+      <Certificates data={certificates} />
     </>
   );
 };

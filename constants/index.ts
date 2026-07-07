@@ -232,7 +232,7 @@ export const timeline = [
     id: 1,
     title: 'Frontend Developer',
     company: 'Monogo',
-    duration: '2025 - present',
+    duration: '2025 - 2026',
     description: [
       'Maintained headless e-commerce storefronts (Next.js, React, TypeScript, GraphQL) - features and bug fixes.',
       'Contributed to a large-scale migration for Schneider Electric (se.com): ~80,000 pages across 40 languages, 150+ custom Svelte components built in a Svelte, TypeScript, and Tailwind monorepo.',

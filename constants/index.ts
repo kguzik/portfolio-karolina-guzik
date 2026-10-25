@@ -231,6 +231,12 @@ export const timeline = [
   {
     id: 1,
     title: 'Frontend Developer',
+    company: 'NASK',
+    duration: '2026 - Present',
+  },
+  {
+    id: 2,
+    title: 'Frontend Developer',
     company: 'Monogo',
     duration: '2025 - 2026',
     description: [
@@ -242,7 +248,7 @@ export const timeline = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Senior Web Developer',
     company: 'plantecs GmbH',
     duration: '2024 - 2025',
@@ -253,7 +259,7 @@ export const timeline = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: 'Mid Frontend Developer',
     company: 'Chop-Chop.org',
     duration: '2022 - 2024',
@@ -264,7 +270,7 @@ export const timeline = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: 'Freelance Web Developer',
     company: 'Ikagi Karolina Guzik',
     duration: '2020 - 2021',
@@ -274,7 +280,7 @@ export const timeline = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: 'Web Developer',
     company: 'ASCO Systemy Informatyczne Sp. z o.o. Sp. k.',
     duration: '2019 - 2020',
@@ -284,7 +290,7 @@ export const timeline = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: 'Junior Front-End Developer',
     company: 'Pomeranian Development Studio',
     duration: '2018 - 2019',
@@ -293,7 +299,7 @@ export const timeline = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: 'Massage Therapist / Receptionist',
     company: 'Kosmetyczny Instytut Dr Irena Eris',
     duration: '2016 - 2018',
